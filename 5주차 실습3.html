@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> 5주차 실습 </title>
+    </head>
+
+    <body>
+        <h3> 컬러 다이얼로그 색 입력</h3>
+        <hr>
+        <form>
+            색 선택 <input type="color" value="#00BFFF" onchange = "document.body.style.color=this.value">
+        </form>
+
+        <hr>
+        <h3>시간 정보 입력 HTML5 폼 요소들</h3>
+        <h4> 초기 세팅: 2016년 9월 1일 밤 9시 30분(10초 32)<br>시간을 변경해보세요.</h4>
+        <hr>
+        <form>
+            <pre>
+                month : <input type-="month" value="2016-09">
+                week : <input type="week" value="2016-W36">
+                date : <input type="date" value="2016-09-01">
+                time : <input type="time" value="21:30">
+                local: <input type="datetime-local" value="2016-09-01T21:30:10.32">
+            </pre>
+        </form>
+    </body>
+</html>
